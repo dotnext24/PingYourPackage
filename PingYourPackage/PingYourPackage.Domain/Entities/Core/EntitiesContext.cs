@@ -13,6 +13,13 @@ namespace PingYourPackage.Domain.Entities.Core
            : base("PingYourPackage")
        {
        }
+       public IDbSet<ShipmentType> PackageTypes { get; set; }
+       public IDbSet<Affiliate> Affiliates { get; set; }
+       public IDbSet<Shipment> Shipments { get; set; }
+       public IDbSet<ShipmentState> ShipmentStates { get; set; }
+
+
+
        public IDbSet<User> Users { get; set; }
        public IDbSet<Role> Roles { get; set; }
        public IDbSet<UserInRole> UserInRoles { get; set; }

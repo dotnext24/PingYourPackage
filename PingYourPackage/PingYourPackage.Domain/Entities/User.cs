@@ -28,13 +28,15 @@ namespace PingYourPackage.Domain.Entities
         public bool IsLocked { get; set; }
         public DateTime CreatedOn { get; set; }
         public DateTime? LastUpdatedOn { get; set; }
-        public virtual ICollection<UserInRole> UserInRoles { get; set; }
 
+        public virtual ICollection<UserInRole> UserInRoles { get; set; }
+        public virtual Affiliate Affiliate { get; set; }
 
        
         public User()
         {
             UserInRoles = new HashSet<UserInRole>();
+            Affiliate = new Affiliate();
         }
     }
 }

@@ -7,13 +7,13 @@ namespace PingYourPackage.Domain.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class validation : IMigrationMetadata
+    public sealed partial class innitial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(validation));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(innitial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201511281646302_validation"; }
+            get { return "201512021132559_innitial"; }
         }
         
         string IMigrationMetadata.Source
