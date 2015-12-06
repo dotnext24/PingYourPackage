@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace PingYourPackage.Domain.Services
 {
-    class ICryptoService
+    public interface ICryptoService
     {
+        string GenerateSalt();
+        string EncryptPassword(string password, string salt);
     }
 }

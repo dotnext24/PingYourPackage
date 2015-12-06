@@ -7,13 +7,13 @@ namespace PingYourPackage.Domain.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class innitial : IMigrationMetadata
+    public sealed partial class domaonentities : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(innitial));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(domaonentities));
         
         string IMigrationMetadata.Id
         {
-            get { return "201512021132559_innitial"; }
+            get { return "201512060833576_domaonentities"; }
         }
         
         string IMigrationMetadata.Source
