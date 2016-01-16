@@ -50,7 +50,7 @@
       <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="PingYourPackage.API">
-      <HintPath>..\PingYourPackage.API\bin\Debug\PingYourPackage.API.dll</HintPath>
+      <HintPath>..\..\..\PingYourPackage\PingYourPackage\PingYourPackage.API\bin\Debug\PingYourPackage.API.dll</HintPath>
     </Reference>
     <Reference Include="PingYourPackage.Domain">
       <HintPath>..\PingYourPackage.Domain\bin\Debug\PingYourPackage.Domain.dll</HintPath>

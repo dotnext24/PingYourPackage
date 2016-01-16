@@ -6,9 +6,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using PingYourPackage.Domain.Entities.Extensions;
+using PingYourPackage.Domain.Entities;
 
-namespace PingYourPackage.Domain.Entities.Core
+namespace PingYourPackage.Domain.Entities
 {
     public class EntityRepository<T> : IEntityRepository<T> where T : class, IEntity, new()
     {

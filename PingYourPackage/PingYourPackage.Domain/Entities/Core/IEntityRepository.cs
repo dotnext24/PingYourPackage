@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PingYourPackage.Domain.Entities.Core
+namespace PingYourPackage.Domain.Entities
 {
     public interface IEntityRepository<T> where T : class, IEntity, new()
     {

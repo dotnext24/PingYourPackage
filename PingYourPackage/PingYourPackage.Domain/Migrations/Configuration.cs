@@ -6,14 +6,14 @@ namespace PingYourPackage.Domain.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<PingYourPackage.Domain.Entities.Core.EntitiesContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<PingYourPackage.Domain.Entities.EntitiesContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(PingYourPackage.Domain.Entities.Core.EntitiesContext context)
+        protected override void Seed(PingYourPackage.Domain.Entities.EntitiesContext context)
         {
                     context.Roles.AddOrUpdate(role => role.Name,
                            new Role { Key = Guid.NewGuid(), Name = "Admin" },
