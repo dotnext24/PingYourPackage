@@ -67,7 +67,11 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Config\AutofacWebAPI.cs" />
+    <Compile Include="Config\RouteConfig.cs" />
+    <Compile Include="Config\WebAPIConfig.cs" />
+    <Compile Include="Formatting\SuppressedRequiredMemberSelector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Routing\GuidRouteConstraint.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
