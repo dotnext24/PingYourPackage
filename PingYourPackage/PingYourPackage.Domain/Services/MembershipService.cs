@@ -1,6 +1,4 @@
 ﻿using PingYourPackage.Domain.Entities;
-using PingYourPackage.Domain.Entities.Core;
-using PingYourPackage.Domain.Entities.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -183,7 +181,7 @@ string username, string email, string password)
             throw new NotImplementedException();
         }
 
-        public Entities.Core.PaginatedList<UserWithRoles> GetUsers(int pageIndex, int pageSize)
+        public Entities.PaginatedList<UserWithRoles> GetUsers(int pageIndex, int pageSize)
         {
             throw new NotImplementedException();
         }

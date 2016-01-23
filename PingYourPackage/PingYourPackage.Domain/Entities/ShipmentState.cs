@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PingYourPackage.Domain.Entities
 {
-   public  class ShipmentState
+   public  class ShipmentState:IEntity
     {
         [Key]
         public Guid Key { get; set; }

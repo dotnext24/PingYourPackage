@@ -1,5 +1,4 @@
 ﻿using PingYourPackage.Domain.Entities;
-using PingYourPackage.Domain.Entities.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;

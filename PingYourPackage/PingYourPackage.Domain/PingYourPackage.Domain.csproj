@@ -72,9 +72,11 @@
     <Compile Include="Services\CryptoService.cs" />
     <Compile Include="Services\ICryptoService.cs" />
     <Compile Include="Services\IMembershipService.cs" />
+    <Compile Include="Services\IShipmentService.cs" />
     <Compile Include="Services\MembershipService.cs" />
     <Compile Include="Services\OperationResult.cs" />
     <Compile Include="Services\OperationResultOfTEntity.cs" />
+    <Compile Include="Services\ShipmentService.cs" />
     <Compile Include="Services\UserWithRoles.cs" />
     <Compile Include="Services\ValidUserContext.cs" />
   </ItemGroup>

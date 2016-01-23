@@ -46,6 +46,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="PingYourPackage.Domain">
+      <HintPath>..\PingYourPackage.Domain\bin\Debug\PingYourPackage.Domain.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -67,7 +70,12 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Config\AutofacWebAPI.cs" />
+    <Compile Include="Config\RouteConfig.cs" />
+    <Compile Include="Config\WebAPIConfig.cs" />
+    <Compile Include="Formatting\SuppressedRequiredMemberSelector.cs" />
+    <Compile Include="MessageHandlers\RequireHttpsMessageHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Routing\GuidRouteConstraint.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PingYourPackage.Domain.Entities
 {
-    public class Affiliate
+    public class Affiliate:IEntity
     {
         [Key]
         public Guid Key { get; set; }
