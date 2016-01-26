@@ -20,6 +20,7 @@ namespace PingYourPackage.API.Config
 
            // Message Handlers
            config.MessageHandlers.Add(new RequireHttpsMessageHandler());
+           config.MessageHandlers.Add(new PingYourPackageAuthHandler());
 
 
            //Formatters
